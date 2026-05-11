@@ -1,0 +1,48 @@
+# Node.js dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Local environment files
+.env
+**/.env
+backend/.env
+frontend/.env
+
+# Build outputs
+frontend/build/
+frontend/release/
+release/
+results/
+uploads/
+
+# Logs and temp files
+*.log
+*.tmp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Python stuff
+venv/
+backend/ai_engine/venv/
+backend/ai_engine/GFPGAN/venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+
+# Large AI/model artifacts and files
+gfpgan/
+backend/ai_engine/GFPGAN/
+backend/ai_engine/
+*.pth
+*.pb
+*.h5
+*.pt
+
+# OS files
+.DS_Store
+Thumbs.db
