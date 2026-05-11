@@ -4,11 +4,21 @@ AI-powered image enhancement app that uses advanced algorithms to improve image 
 
 ## 🚀 Quick Start
 
-### Prerequisites
-- Node.js (v16 or higher)
-- npm or yarn
+### Option 1: One-Click Setup (Recommended)
+For Windows users, simply run:
+```bash
+start.bat
+```
 
-### Installation & Setup
+For Linux/Mac users, run:
+```bash
+chmod +x start.sh
+./start.sh
+```
+
+This will automatically install dependencies, set up environment variables, and start both servers!
+
+### Option 2: Manual Setup
 
 1. **Clone the repository:**
    ```bash
